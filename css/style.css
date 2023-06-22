@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    font: Arial, ;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+.header-bg {
+    background-color: #1C3A94;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7.5px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.header-menu a {
+    padding: 8px 0px;
+    display: inline-block;
+    color: #E0B441;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+
+/*Introduçao*/
