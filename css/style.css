@@ -9,9 +9,6 @@ ul {
     list-style: none;
 }
 
-
-
-
 .header-bg {
     background-color: #1C3A94;
 }
@@ -46,3 +43,28 @@ a {
 
 
 /*Introduçao*/
+
+.introducao img {
+    width: 360px;
+}
+
+
+.introducao {
+    height: 475px;
+    background: url(../img/image\ 1.png) center no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    backdrop-filter: blur(2px);
+  }
+
+.introducao-texto {       
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    display: flex;
+    width: 471px;
+}
+
