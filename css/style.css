@@ -61,16 +61,104 @@ a {
     display: grid;
     grid-template-columns: 3.5fr 7fr;
     gap: 170px;
-  }
+}
 
 
-.introducao-texto p {    
+.introducao-texto p {
     text-align: center;
-    color: white; 
-    font-size: 22px; 
-    font-family: Arial; 
-    font-style: italic; 
-    font-weight: 700; 
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
     word-wrap: break-word;
- }
+}
 
+/*Conheça nossos serviços*/
+
+.barra-1 {
+    max-width: 1100px;
+    background: #e0b441;
+    border-radius: 15px;
+    width: 200px;
+    height: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.barra-2 {
+    max-width: 1100px;
+    background: #e0b441;
+    border-radius: 15px;
+    width: 200px;
+    height: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titulo {
+    max-width: 1100px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: 700;
+    color: #E0B441;
+    font-size: 42px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.servicos {
+    display: block;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.serv {
+    display: inline;
+}
+
+.serv h2 {
+    display: flex;
+    width: 154px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #E0B441;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.serv img {
+    width: 245px;
+    height: 245px;
+    border-radius: 20px;
+    background: url(../img/conceito-de-estrategia-de-planejamento-de-estrategia-de-marketing.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.serv p {
+    display: inline-block;
+    width: 811px;
+    height: 245px;
+    color: #946F0D;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Arial;
+    position: absolute;
+    padding-left: 40px;
+    margin: 0 auto;
+}
