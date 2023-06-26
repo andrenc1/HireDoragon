@@ -264,6 +264,7 @@ a {
 .btn {
     display: inline-block;
     background-color: #1C3A94;
+    border-style: none;
     color: white;
     width: 130px;
     height: 45px;
@@ -279,6 +280,8 @@ a {
 
 .btn:hover {
     background-color: #ffffff;
+    border-style: outset;
+    border-color: #1C3A94;
     color: #1C3A94;
     width: 130px;
     height: 45px;
@@ -301,7 +304,7 @@ a {
     display: block;
 }
 
-.inscrever h1{
+.inscrever h1 {
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -314,7 +317,7 @@ a {
     text-decoration-line: underline;
 }
 
-.inscrever-texto  {
+.inscrever-texto {
     padding-top: 27px;
     max-width: 1100px;
     margin: 0 auto;
@@ -327,8 +330,7 @@ a {
 .inscrever-texto p {
     display: flex;
     margin: 0;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 22px;
     font-family: Arial;
@@ -336,10 +338,12 @@ a {
     width: 651px;
     float: right;
     flex-direction: column;
-flex-shrink: 0;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .btn-1 {
+    border-style: none;
     display: inline-block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: #E0B441;
@@ -351,13 +355,15 @@ flex-shrink: 0;
     font-weight: 700;
     border-radius: 4px;
     padding-top: 3px;
-    margin-left: 350px;
+    margin-left: 375px;
     margin-top: 40px;
 
 }
 
 .btn-1:hover {
     background-color: #ffffff;
+    border-style: outset;
+    border-color: #E0B441;
     color: #E0B441;
     width: 130px;
     height: 45px;
@@ -368,3 +374,33 @@ flex-shrink: 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
+
+/*quote*/
+
+.quote {
+    background: url(../img/aaa.jpeg);
+    backdrop-filter: blur(10px);
+    background-color:#727272 ;
+    width: 100%;
+    max-height: 100%;
+    height: 150px;
+    position: absolute;
+    object-fit: fill;
+}
+
+
+
+.quote-texto {
+    padding-top: 44px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(96, 96, 96, 0.25);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    width: 510px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
