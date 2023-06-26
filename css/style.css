@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font: Arial, ;
+    font: arial, helvetica, ;
 }
 
 ul {
@@ -85,7 +85,7 @@ a {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .barra-2 {
@@ -121,15 +121,14 @@ a {
     display: block;
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 60px;
-    align-items: center;
+    margin-top: 80px;
 }
 
-.serv {
+.designer {
     display: inline;
 }
 
-.serv h2 {
+.designer h2 {
     display: flex;
     width: 154px;
     flex-direction: column;
@@ -142,7 +141,7 @@ a {
     font-weight: 700;
 }
 
-.serv img {
+.designer img {
     width: 245px;
     height: 245px;
     border-radius: 20px;
@@ -150,7 +149,7 @@ a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.serv p {
+.designer p {
     display: inline-block;
     width: 811px;
     height: 245px;
@@ -161,4 +160,211 @@ a {
     position: absolute;
     padding-left: 40px;
     margin: 0 auto;
+}
+
+.programador {
+    display: inline;
+    max-width: 1100px;
+}
+
+.programador h2 {
+    margin-left: 945px;
+    margin-top: 80px;
+    display: flex;
+    width: 154px;
+    flex-direction: column;
+    justify-content: right;
+    flex-shrink: 0;
+    color: #E0B441;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.programador p {
+    display: inline-block;
+    width: 811px;
+    height: 245px;
+    color: #946F0D;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Arial;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.programador img {
+    display: inline-block;
+    margin-left: 855px;
+    width: 245px;
+    height: 245px;
+    border-radius: 20px;
+    background: url(../img/conceito-de-estrategia-de-planejamento-de-estrategia-de-marketing.jpg), lightgray 50% / center no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.analista {
+    display: inline;
+}
+
+.analista h2 {
+    margin-top: 80px;
+    display: flex;
+    width: 304px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #E0B441;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.analista img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 245px;
+    height: 245px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.analista p {
+    display: inline-block;
+    width: 811px;
+    height: 245px;
+    color: #946F0D;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Arial;
+    position: absolute;
+    padding-left: 40px;
+    margin: 0 auto;
+}
+
+.botao {
+    max-width: 1100px;
+}
+
+.botao h3 {
+    color: #638AFF;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    text-decoration: underline;
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1C3A94;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding-top: 3px;
+    align-items: center;
+    margin-left: 480px;
+    margin-bottom: 80px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #1C3A94;
+    width: 130px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+/*Se inscreva*/
+
+
+.inscrever {
+    background-color: #638AFF;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 640px;
+    display: block;
+}
+
+.inscrever h1{
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #E0B441;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px black;
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.inscrever-texto  {
+    padding-top: 27px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.inscrever-texto img {
+    float: left;
+}
+
+.inscrever-texto p {
+    display: flex;
+    margin: 0;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: 700;
+    width: 651px;
+    float: right;
+    flex-direction: column;
+flex-shrink: 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #E0B441;
+    color: #1C3A94;
+    width: 130px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding-top: 3px;
+    margin-left: 350px;
+    margin-top: 40px;
+
+}
+
+.btn-1:hover {
+    background-color: #ffffff;
+    color: #E0B441;
+    width: 130px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
