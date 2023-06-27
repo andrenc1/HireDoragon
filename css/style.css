@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font: arial, helvetica, ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -378,20 +378,16 @@ a {
 /*quote*/
 
 .quote {
-    background: url(../img/aaa.jpeg);
-    backdrop-filter: blur(10px);
-    background-color:#727272 ;
+    background: linear-gradient(rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)), url(../img/aaa.jpeg) center, no-repeat;
+    max-height: fit-content;
     width: 100%;
-    max-height: 100%;
     height: 150px;
-    position: absolute;
-    object-fit: fill;
 }
 
 
-
-.quote-texto {
-    padding-top: 44px;
+.cite {
+    padding-top: 32px;
     margin: 0 auto;
     color: #FFF;
     text-align: center;
@@ -399,8 +395,100 @@ a {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    width: 510px;
+    width: 502px;
     box-sizing: border-box;
-    word-wrap: break-word;
 }
 
+/*footer*/
+
+.footer-bg {
+    background-color: #1C3A94;
+}
+
+.footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 90px;
+    max-height: 90px;
+}
+
+.contato {
+    display: inline-block;
+}
+
+.contato h3 {
+    padding-top: 18px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    width: 69px;
+    color: #E0B441;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.contato ul {
+    padding-top: 6px;
+    text-align: left;
+    color: #E0B441;
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    width: 153.12px;
+    display: block;
+    padding: auto;
+}
+
+.redes {
+    float: right;
+}
+
+
+.redes h3 {
+    padding-top: 18px;
+    margin: 0;
+    display: flex;
+    color: #E0B441;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.redes ul {
+    padding-top: 10px;
+    display: flex;
+    color: #E0B441;
+    gap: 18px;
+    float: right;
+}
+
+.redes a {
+    padding: 8px 0px;
+}
+
+.redes ul li:hover {
+    color: white;
+}
+
+.direitos {
+    max-width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #638AFF;
+}
+
+.direitos p {
+    margin: 0 auto;
+    display: flex;
+    width: 275px;
+    color: #E0B441;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 700;
+    padding-top: 18px;
+}
