@@ -41,6 +41,10 @@ a {
     font-weight: 700;
 }
 
+.header-menu a:hover {
+    color: #FFF;
+}
+
 
 /*Introduçao*/
 
@@ -379,7 +383,7 @@ a {
 
 .quote {
     background: linear-gradient(rgba(0, 0, 0, 0.60),
-            rgba(0, 0, 0, 0.60)), url(../img/aaa.jpeg) center, no-repeat;
+            rgba(0, 0, 0, 0.60)), url(../img/fundo\ binario.jpeg) center, no-repeat;
     max-height: fit-content;
     width: 100%;
     height: 150px;
@@ -387,7 +391,6 @@ a {
 
 
 .cite {
-    padding-top: 32px;
     margin: 0 auto;
     color: #FFF;
     text-align: center;
@@ -397,6 +400,11 @@ a {
     font-weight: 700;
     width: 502px;
     box-sizing: border-box;
+}
+
+.quote p {
+    margin: 0 auto;
+    padding-top: 44px;
 }
 
 /*footer*/
@@ -460,17 +468,12 @@ a {
 .redes ul {
     padding-top: 10px;
     display: flex;
-    color: #E0B441;
     gap: 18px;
     float: right;
 }
 
 .redes a {
     padding: 8px 0px;
-}
-
-.redes ul li:hover {
-    color: white;
 }
 
 .direitos {
