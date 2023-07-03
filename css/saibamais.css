@@ -1,3 +1,5 @@
+/*Titulo Serviços*/
+
 .tituloserv {
     background: url(../img/serviçosfundo.png);
     height: 200px;
@@ -36,6 +38,8 @@
     margin-top: 5px;
 }
 
+/*Serviços*/
+
 .tiposdeserv {
     margin: 0 auto;
 }
@@ -65,4 +69,11 @@
     background-color: #E0B441;;
     width: 100%;
     margin: 0 auto;
+    height: 220px;
+}
+
+.fundoama p {
+    color: white;
+    font-size: 36px;   
+    padding-top: 75px;
 }
