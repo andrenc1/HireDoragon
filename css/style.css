@@ -467,6 +467,16 @@ a {
     float: right;
 }
 
+.redes ul li:hover {
+    border-width: 3px;
+    border-style: inset;
+    border-radius: 5px;
+    border-color: #E0B441;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
 .redes a {
     padding: 8px 0px;
 }
