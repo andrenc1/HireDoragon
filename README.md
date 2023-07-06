@@ -4,7 +4,7 @@
 https://p1nksquid.github.io/HireDoragon/
 
 
-<h2>Este repositório contém o código fonte do site HireDoragon, site feito como trabalho do curso de Sistemas De Informaçao, é um site que busca um destino online para encontrar talentos freelancers qualificados e as melhores oportunidades de trabalho. A plataforma oferece recursos poderosos e ferramentas de comunicação integradas para facilitar a colaboração entre freelancers e empregadores.</h2>
+<h4>Este repositório contém o código fonte do site HireDoragon, site feito como trabalho do curso de Sistemas De Informaçao, é um site que busca um destino online para encontrar talentos freelancers qualificados e as melhores oportunidades de trabalho.</h4>
 
 **Recursos Principais**
 
@@ -29,13 +29,15 @@ A página de serviços destaca os principais tipos de serviços oferecidos pelo 
 **Página de Login e Registrar**
 
 O HireDoragon também possui páginas de login e registrar, que permitem que os usuários acessem suas contas existentes e criem novas contas, respectivamente.
-Tecnologias Utilizadas
+
+**Tecnologias Utilizadas**
 
     HTML
     CSS
 
-Autores
+**Este projeto foi desenvolvido por:**
 
-Este projeto foi desenvolvido por André Noro e Bruno Rezende.
+    André Noro 
+    Bruno Rezende
 
 **Obrigado por visitar este repositório! Se você tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato conosco.**
